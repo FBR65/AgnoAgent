@@ -24,6 +24,8 @@ class Config:
     optimizer_model: str = os.getenv("OPTIMIZER_MODEL", "qwen2.5:latest")
     sentiment_model: str = os.getenv("SENTIMENT_MODEL", "qwen2.5:latest")
     ui_model: str = os.getenv("USER_INTERFACE_MODEL", "qwen2.5:latest")
+    interface_model: str = os.getenv("INTERFACE_MODEL", "qwen2.5:latest")
+    default_model: str = os.getenv("DEFAULT_MODEL", "qwen2.5:latest")
 
     # MCP Server Configuration
     mcp_host: str = os.getenv("MCP_HOST", "localhost")

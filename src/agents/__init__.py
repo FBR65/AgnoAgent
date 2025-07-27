@@ -7,6 +7,7 @@ from .lektor_agent import LektorAgent
 from .optimizer_agent import OptimizerAgent
 from .sentiment_agent import SentimentAgent
 from .query_ref_agent import QueryRefAgent
+from .interface_agent import InterfaceAgent
 
 __all__ = [
     "BaseAgent",
@@ -14,4 +15,5 @@ __all__ = [
     "OptimizerAgent",
     "SentimentAgent",
     "QueryRefAgent",
+    "InterfaceAgent",
 ]
